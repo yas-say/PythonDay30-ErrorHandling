@@ -16,7 +16,7 @@ while flag:
     try:
         output_list = [phonetic_dict[letter] for letter in word]
     except KeyError:
-        print("Key Error")
+        print("Key Error, sorry just alphabet")
     else:
         output_list = [phonetic_dict[letter] for letter in word]
         print(output_list)
